@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main__wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 1rem;
+}
+.main__wrapper button{
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(93, 93, 93);
+    border-radius: 0.4rem;
+    border: none;
+    cursor: pointer;
+}
